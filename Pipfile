@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+selenium = "*"
+requests = "*"
+pyside6 = "*"
+"ghost.py" = "*"
+pyside2 = "*"
+pyftpdlib = "*"
+selenium-wire = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+
+[pipenv]
+allow_prereleases = true
